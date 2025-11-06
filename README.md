@@ -18,7 +18,9 @@ The ProductsService refactored to use the IHttpClientFactory (The ProductsServic
 
 Right now only the **getAll** method supported for **products**
 
-We have to implement **getOne** and **create** methods also
+Implement the "get one product" feature
+
+We have to implement **create** methods also
 
 **#2**
 
