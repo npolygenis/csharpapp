@@ -10,9 +10,7 @@ We have to do some code refactoring and implement some new features
 
 ## Code refactoring
 
-Seems that the use of http client is not so much efficient
-
-Let's make a different, more solid, approach/implementation
+The ProductsService refactored to use the IHttpClientFactory (The ProductsService currently creates a new HttpClient instance, which is inefficient and can lead to performance issues)
 
 ## New features
 
