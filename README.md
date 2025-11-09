@@ -28,7 +28,7 @@ implement  categories
 
 **#3**
 
-3nd party service supports JWT auth. We have to implement and support it. Use the credentials provided to appsettings.json file.
+implement JWT auth and support it,use the credentials provided to appsettings.json file.
 
 **#4**
 
