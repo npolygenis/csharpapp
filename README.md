@@ -24,7 +24,7 @@ Implement the "create product" feature
 
 **#2**
 
-Add implementation for **categories**
+implement  categories
 
 **#3**
 
