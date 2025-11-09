@@ -20,7 +20,7 @@ Right now only the **getAll** method supported for **products**
 
 Implement the "get one product" feature
 
-We have to implement **create** methods also
+Implement the "create product" feature
 
 **#2**
 
