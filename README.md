@@ -32,7 +32,7 @@ implement JWT auth and support it,use the credentials provided to appsettings.js
 
 **#4**
 
-We must measure and log the performance of the requests. Create a middleware to achieve this.
+Created a middleware to measure and log the performance of the requests.
 
 ## Implementation
 

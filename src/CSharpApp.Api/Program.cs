@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using CSharpApp.Core.Settings;
 using CSharpApp.Core.Interfaces;
+using CSharpApp.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -49,6 +50,7 @@ if (app.Environment.IsDevelopment())
 
 //app.UseHttpsRedirection();
 
+app.UseMiddleware<PerformanceMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
 
