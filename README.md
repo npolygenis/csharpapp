@@ -38,6 +38,6 @@ Created a middleware to measure and log the performance of the requests.
 
 * Try to understand and keep the architectural approach.
 * Added unit testing.
-* Add docker support.
+* Added docker support.
 * Using CQRS pattern will be considered as a strong plus.
 * The attached collections (postman/insomnia) will help you with the requests.
