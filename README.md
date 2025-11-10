@@ -37,7 +37,7 @@ Created a middleware to measure and log the performance of the requests.
 ## Implementation
 
 * Try to understand and keep the architectural approach.
-* Add unit testing.
+* Added unit testing.
 * Add docker support.
 * Using CQRS pattern will be considered as a strong plus.
 * The attached collections (postman/insomnia) will help you with the requests.
